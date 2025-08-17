@@ -22,7 +22,6 @@ const Navbar = () => {
         <li><Link to="/ateliers-adultes">Ateliers Adultes</Link></li>
         <li><Link to="/ateliers-enfants">Ateliers Enfants</Link></li>
         <li><Link to="/les-petits-plus">Les Petits Plus</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
