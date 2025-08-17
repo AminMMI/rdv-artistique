@@ -1,0 +1,57 @@
+
+
+:root {
+  --gap: 0.5rem;
+}
+
+.enfant-portrait-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.enfant-portrait-list {
+  display: flex;
+  width: min(100%, 1200px);
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  gap: var(--gap);
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  padding: 0;
+  transition: flex 0.3s ease;
+}
+
+.enfant-portrait-li img:hover {
+  margin: 0 5px;
+  z-index: 10;
+  flex: 1.1;
+  scale: 1.2;
+  filter: grayscale(0);
+}
+
+.enfant-portrait-li img {
+   width: 240px;
+  height: 330px;
+  opacity: 1;
+  position: relative;
+  filter: grayscale(1);
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.enfant-portrait-li img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease;
+}
+
+a {
+  outline-offset: 4px;
+}

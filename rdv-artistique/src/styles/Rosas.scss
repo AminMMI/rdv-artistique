@@ -1,0 +1,66 @@
+
+.galerie-text {
+  position: relative;
+  width: 70%;
+  height: 70vh; // ajuste selon besoin
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .galerie-text_fond {
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    border-radius: 50%;
+    top: 10px;
+  }
+
+  .fond1 {
+    background-color: rgba(135, 207, 235, 0.35);
+    animation: rotate-clockwise 25s linear infinite;
+
+  }
+
+  .fond2 {
+    background-color: rgba(132, 255, 0, 0.35);
+      animation: rotate-counter 30s linear infinite;
+
+  }
+
+  .fond3 {
+    background-color: rgba(220, 109, 109, 0.35);
+      animation: rotate-clockwise 30s linear infinite;
+
+  }
+
+  .fond4 {
+    background-color: rgba(114, 124, 79, 0.35);
+      animation: rotate-counter 45s linear infinite;
+
+  }
+
+  .galerie-text_content {
+    position: relative;
+    z-index: 1;
+    color: #000;
+  }
+}
+
+@keyframes rotate-clockwise {
+  0% { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes rotate-counter {
+  0% { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(-360deg) scale(1); }
+}
+
+@media screen and (min-width: 760px) {
+      .galerie-text_fond {
+        top: -150px!important;
+        width: 75px!important;
+        height: 500px!important;
+      }
+}

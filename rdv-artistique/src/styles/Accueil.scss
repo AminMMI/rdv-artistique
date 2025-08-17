@@ -1,0 +1,181 @@
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 50;
+  font-size: 1.3rem;
+  color: #000000;
+  text-align: center;
+}
+
+.accueil_title {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+}
+
+.accueil_title div {
+    margin-bottom: 100px;
+
+}
+
+
+.accueil_hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul_accueil {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.511);
+}
+
+.ul_accueil li {
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  list-style: none;
+}
+
+.accueil_img {
+  visibility: hidden;
+}
+
+
+
+table {
+  font-family: 'Lato', sans-serif;
+  border: 1px solid #ccc;
+  margin: 2rem auto;
+  background-color: #fffdfa;
+  width: 90%;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #fbeee6;
+  color: #5a3e36;
+  padding: 1rem;
+    border-radius: 5px;
+
+}
+
+td {
+  vertical-align: top;
+  background-color: #fdf8f4;
+  border: 1px solid #e5d4c6;
+  text-align: center;
+  padding: 5px 7px;
+  border-radius: 5px;
+
+}
+
+
+.accueil-tarifs {
+  text-align: center;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.511);
+  margin: 50px auto;
+  max-width: 275px;
+}
+
+
+  .stats-banner {
+    background-image: url(../assets/images/background_paper.jpg);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .stats-banner h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .stats-banner__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .stat-item {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .stat-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .stat-item p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+
+@media screen and (min-width: 760px) {
+
+  .accueil_title h1 {
+    font-size: 4rem;
+  }
+
+  .accueil_title h2, h3 {
+    font-size: 3rem;
+  }
+
+  .accueil_img {
+    visibility: visible;
+    width: 350px;
+    height: 352px;
+  }
+
+    .accueil_hero {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .accueil_hero img {
+      margin-left: 50px;
+    }
+
+    .stats-banner h1 {
+        font-size: 2rem;
+      }
+    
+      .stat-item h2 {
+        text-align: left;
+      }
+
+      .stat-item p {
+        text-align: left;
+      }
+
+      .stats-banner__grid {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+    
+      .stat-item {
+        width: 200px;
+      }
+
+  
+}
