@@ -5,7 +5,6 @@ import Accueil from "./pages/Accueil";
 import AteliersAdultes from "./pages/AteliersAdultes";
 import AteliersEnfants from "./pages/AteliersEnfants";
 import LesPetitsPlus from "./pages/LesPetitsPlus";
-import Contact from "./pages/Contact";
 
 function App() {
   return (
