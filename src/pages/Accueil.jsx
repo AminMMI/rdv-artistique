@@ -20,10 +20,10 @@ const Accueil = () => (
         <li>4 soirées modèles vivants</li>
         <li>1 weekend de 3 jours pour réalisation de croquis</li>
         <li>1 visite au musée avec conférence</li>
-        <li>2 jours au salon internationale du croquis à Clermont-Ferrand</li>
+        <li>2 jours au salon international du croquis à Clermont-Ferrand</li>
         <li>1 journée spéciale croquis</li>
         <li>Exposition au salon d'automne de Coubron</li>
-        <li>Réalisation d'une fresque extérieur</li>
+        <li>Réalisation d'une fresque extérieure</li>
     </ul>
 
     <img className="accueil_img" src={mascotte}></img>
