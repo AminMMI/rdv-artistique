@@ -16,7 +16,7 @@ const Footer = () => (
 
  <nav className="footer-bottom">
   <ul>
-    <li><Link to="/Accueil">Accueil</Link></li>
+    <li><Link to="/">Accueil</Link></li>
     <li><Link to="/ateliers-adultes">Ateliers Adultes</Link></li>
     <li><Link to="/ateliers-enfants">Ateliers Enfants</Link></li>
     <li><Link to="/les-petits-plus">Les Petits Plus</Link></li>
