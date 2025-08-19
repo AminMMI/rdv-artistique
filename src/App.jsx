@@ -15,7 +15,6 @@ function App() {
           <Route path="/ateliers-adultes" element={<AteliersAdultes />} />
           <Route path="/ateliers-enfants" element={<AteliersEnfants />} />
           <Route path="/les-petits-plus" element={<LesPetitsPlus />} />
-          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </Router>

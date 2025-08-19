@@ -1,17 +1,23 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.jpg";
-import "../styles/Navbar.scss";
-
+import { useState } from "react";
+import logo from "../assets/images/logo.png";
+// import "../styles/Navbar.scss";
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="nav">
+    <nav className={`nav ${isOpen ? "open" : ""}`}>
       <div className="nav__logo">
         <Link to="/">
           <img src={logo} alt="Logo RDV Artistique" />
         </Link>
       </div>
 
-      <button className="nav__toggle" aria-label="Ouvrir le menu">
+      <button
+        className="nav__toggle"
+        aria-label="Ouvrir le menu"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>

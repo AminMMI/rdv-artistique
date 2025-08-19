@@ -2,8 +2,6 @@ import "../styles/Accueil.scss";
 import mascotte from "../assets/images/mascotte.png";
 import plaquette_2026 from "../assets/pdf/plaquette_saison_2025_26.pdf";
 
-
-
 const Accueil = () => (
   <section className="p-6 Accueil">
 
@@ -34,7 +32,7 @@ const Accueil = () => (
         <table>
         <thead>
           <tr>
-            <th colspan="3">
+            <th colSpan="3">
               LES ATELIERS
               DU MERCREDI MATIN
               <strong>2 GROUPES :</strong>
@@ -74,7 +72,7 @@ const Accueil = () => (
         <table>
         <thead>
           <tr>
-            <th colspan="3">
+            <th colSpan="3">
               LES WEEKEND DE L'ASSOCIATION
             </th>
           </tr>
@@ -111,19 +109,19 @@ const Accueil = () => (
       <h1><a href={plaquette_2026}>Télécharger la plaquette de la saison</a></h1>
     </div>
 
-    <div class="stats-banner">
+    <div className="stats-banner">
                     <h1>Quelques informations sur nous :</h1>
                   
-                    <div class="stats-banner__grid">
-                      <div data-aos="fade-down" data-aos-duration="500" class="stat-item">
+                    <div className="stats-banner__grid">
+                      <div data-aos="fade-down" data-aos-duration="500" className="stat-item">
                         <h2>+3 ans</h2>
                         <p><strong>D'expérience</strong></p>
                       </div>
-                      <div data-aos="fade-down" data-aos-duration="1000" class="stat-item">
+                      <div data-aos="fade-down" data-aos-duration="1000" className="stat-item">
                         <h2>Une trentaine</h2>
                         <p><strong>D'adhérents</strong></p>
                       </div>
-                      <div data-aos="fade-down" data-aos-duration="2000" class="stat-item">
+                      <div data-aos="fade-down" data-aos-duration="2000" className="stat-item">
                         <h2>Plusieurs</h2>
                         <p><strong>Sorties et évenements par années</strong></p>
                       </div>
