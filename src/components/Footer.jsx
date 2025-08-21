@@ -9,7 +9,7 @@ const Footer = () => (
   <h1>Retrouvez nous !</h1>
   <img className="footer__logo" src={logo} alt=""></img>
   <div class="footer-top">
-    <div class="footer-item">📧 contact@exemple.com</div>
+    <div class="footer-item">📧 rvartistiques@gmail.com</div>
     <div class="footer-item">🏠 17 avenue du rendez vous, 93470 Coubron</div>
     <div class="footer-item">📞 06 85 20 44 19</div>
   </div>

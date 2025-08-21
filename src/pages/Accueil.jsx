@@ -45,21 +45,21 @@ const Accueil = () => (
         <tbody>
           <tr>
             <td>
-              <strong>Partie 1</strong>
-              du 17 septembre au 17 décembre
+              <strong>Partie 1 </strong>
+               du 17 septembre au 17 décembre
               <em>Jeu de transparence :</em>
               comment l’invisible peut-il nous émouvoir ?
             </td>
             <td>
-              <strong>Partie 2</strong>
-              du 7 janvier au 15 avril
+              <strong>Partie 2 </strong>
+               du 7 janvier au 15 avril
               <em>Le monde végétal :</em>
               cyanotype, encres végétales,
               comment interpréter et dessiner les végétaux ?
             </td>
             <td>
-              <strong>Partie 3</strong>
-              du 6 mai au 8 juillet
+              <strong>Partie 3 </strong>
+               du 6 mai au 8 juillet
               <em>Découverte et croquis du Raincy</em>
             </td>
           </tr>

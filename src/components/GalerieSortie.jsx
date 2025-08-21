@@ -7,7 +7,7 @@ import '../styles/GalerieSortie.scss';
 
 const GalerieSortie = () => {
   const images = [
-    { src: photo1, caption: "Dessiner la natur en étant proche d'elle" },
+    { src: photo1, caption: "Dessiner la nature en étant proche d'elle" },
     { src: photo2, caption: "Étude de modèle vivant" },
     { src: photo3, caption: "Exploration de la transparence" },
     { src: photo4, caption: "Travail à l’encre végétale" }
