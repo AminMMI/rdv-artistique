@@ -6,10 +6,18 @@ h1 {
   text-align: center;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Luckiest Guy', cursive;
   font-weight: 50;
   font-size: 1.3rem;
+  color: #000000;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 50;
+  font-size: 0.8rem;
   color: #000000;
   text-align: center;
 }
@@ -135,8 +143,12 @@ td {
     font-size: 4rem;
   }
 
-  .accueil_title h2, h3 {
+  .accueil_title h2 {
     font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 
   .accueil_img {

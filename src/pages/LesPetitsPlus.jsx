@@ -5,7 +5,7 @@ import "../styles/PetitPlus.scss";
 
 const LesPetitsPlus = () => (
   <section>
-    <h1>Les Petits Plus</h1>
+<h1>Les petits plus – Événements et activités artistiques avec Rendez-vous Artistique</h1>
     
     <div className="petit-plus">
       <h2>Chez Rendez vous Artistique, c'est pas que du dessin... Nous faisons des sorties tous ensemble ! Plongez dans les souvenirs de nos dernières sorties de l'an passé..</h2>

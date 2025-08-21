@@ -7,8 +7,8 @@ const Accueil = () => (
 
     <div className="accueil_title">
       <div>
-        <h1>Bienvenue chez RDV Artistique</h1>
-        <h2>En bref, cette année l'association vous propose...</h2>
+        <h1>Rendez-vous Artistique – Association de dessin à Coubron</h1>
+<h2>En bref, cette année l'association vous propose...</h2>
       </div>
     </div>
 

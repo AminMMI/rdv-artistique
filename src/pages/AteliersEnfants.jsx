@@ -13,7 +13,7 @@ const COUNT = images.length;
 
 const AteliersEnfants = () => (
  <section className="atelier-section">
-       <h1 className="atelier-title">Les Ateliers du Mercredi Matin</h1>
+<h1 className="atelier-title">Ateliers de dessin pour enfants – Mercredi matin à Coubron</h1>
        
        <div>
        <embed
