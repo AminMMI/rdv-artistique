@@ -14,22 +14,19 @@ const COUNT = images.length;
 
 
 const AteliersEnfants = () => (
- <section className="atelier-section"><div style={{ width: "100%", maxWidth: "800px", margin: "0 auto", border: "1px solid #ccc" }}>
-  {/* Pour desktop / tablette : iframe */}
+ <section className="atelier-section">
+  <div className="pdf-container">
   <iframe
     src={inscription}
-    width="100%"
-    height="600px"
     title="Inscription PDF"
-    style={{ border: "none" }}
   />
-  {/* Pour mobile : lien de téléchargement */}
-  <p style={{ textAlign: "center", marginTop: "10px" }}>
+  <p>
     <a href={inscription} target="_blank" rel="noopener noreferrer">
       Télécharger ou voir le PDF
     </a>
   </p>
 </div>
+
 
 
   <div className="galerie">
