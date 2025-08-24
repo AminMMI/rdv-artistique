@@ -44,11 +44,7 @@ const AteliersAdultes = () => {
   </div>
         <GalerieAdulte/>
 </div>
-
         <Rosas />
-
-
-
     </section>
   );
 };
