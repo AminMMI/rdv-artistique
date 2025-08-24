@@ -7,6 +7,9 @@ import photo4 from '../assets/images/photo_dessin4.jpg';
     import GalerieAdulte from '../components/GalerieAdulte';
     import Rosas from '../components/Rosas';
 
+    import fresque from '../assets/images/fresque.jpg';
+
+
 
 const images = [photo1, photo2, photo3, photo4];
 const COUNT = images.length;
