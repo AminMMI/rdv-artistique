@@ -15,7 +15,7 @@ const COUNT = images.length;
 
 const AteliersEnfants = () => (
  <section className="atelier-section">
-  <div className="pdf-container">
+<div className="pdf-container">
   <iframe
     src={inscription}
     title="Inscription PDF"
@@ -26,6 +26,7 @@ const AteliersEnfants = () => (
     </a>
   </p>
 </div>
+
 
 
 
