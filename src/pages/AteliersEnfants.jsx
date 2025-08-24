@@ -6,7 +6,6 @@ import photo1 from '../assets/images/photo_enfant1.jpg';
 import photo2 from '../assets/images/photo_enfant2.jpg';
 import photo3 from '../assets/images/photo_enfant3.jpg';
 
-import fresque from '../assets/images/fresque.jpg';
 
 
 
@@ -15,19 +14,23 @@ const COUNT = images.length;
 
 
 const AteliersEnfants = () => (
- <section className="atelier-section">
-<h1 className="atelier-title">Ateliers de dessin pour enfants – Mercredi matin à Coubron</h1>
-       
-       <div>
-       <embed
-         src={inscription}
-         width="100%"
-         height="600px"
-         style={{ border: "1px solid #ccc" }}
-         title="Inscription PDF"
-       />
-       
-     </div>
+ <section className="atelier-section"><div style={{ width: "100%", maxWidth: "800px", margin: "0 auto", border: "1px solid #ccc" }}>
+  {/* Pour desktop / tablette : iframe */}
+  <iframe
+    src={inscription}
+    width="100%"
+    height="600px"
+    title="Inscription PDF"
+    style={{ border: "none" }}
+  />
+  {/* Pour mobile : lien de téléchargement */}
+  <p style={{ textAlign: "center", marginTop: "10px" }}>
+    <a href={inscription} target="_blank" rel="noopener noreferrer">
+      Télécharger ou voir le PDF
+    </a>
+  </p>
+</div>
+
 
   <div className="galerie">
   <h1>Nos réalisations</h1>
