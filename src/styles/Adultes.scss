@@ -37,3 +37,43 @@
   --grayscale: 0;
   flex: var(--magnifier);
 }
+
+
+.fresque {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 220px;
+}
+
+.fresque__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.fresque__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0; /* invisible au départ */
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+  z-index: 2; /* texte au-dessus */
+}
+
+/* Effet hover */
+.fresque:hover .fresque__image {
+  filter: brightness(50%); /* assombrissement */
+}
+
+.fresque:hover .fresque__text {
+  opacity: 1; /* texte apparaît */
+}

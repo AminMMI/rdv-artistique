@@ -43,6 +43,10 @@ const AteliersAdultes = () => {
     ))}
   </div>
         <GalerieAdulte/>
+         <div class="fresque">
+          <img class="fresque__image" src={fresque} alt=""></img>
+          <p   class="fresque__text">Fresque réalisé pour les JO 2025</p>
+        </div>
 </div>
         <Rosas />
     </section>
