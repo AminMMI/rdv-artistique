@@ -90,6 +90,21 @@ td {
 
 }
 
+.accueil_pdf {
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.511);
+  margin: 50px auto;
+  max-width: 275px;
+}
+
+.accueil_pdf a {
+  color: blue;
+}
+
 
 .accueil-tarifs {
   text-align: center;

@@ -1,6 +1,7 @@
 import "../styles/Accueil.scss";
 import mascotte from "../assets/images/mascotte.png";
-import plaquette_2026 from "../assets/pdf/plaquette_saison_2025_26.pdf";
+import plaquette_2026 from "../assets/pdf/plaquette_saison.pdf";
+import plaquette_ami from "../assets/pdf/plaquette_ami.pdf";
 
 const Accueil = () => (
   <section className="p-6 Accueil">
@@ -34,8 +35,8 @@ const Accueil = () => (
           <tr>
             <th colSpan="3">
               LES ATELIERS
-              DU MERCREDI MATIN
-              <strong>2 GROUPES :</strong>
+              DU MERCREDI MATIN 
+               <strong> 2 GROUPES :</strong>
               SOIT 8H50 - 10H50
               SOIT 11H10 - 13H10
               (SAUF VACANCES SCOLAIRES)
@@ -106,7 +107,8 @@ const Accueil = () => (
     </div>
 
     <div className="accueil_pdf">
-      <h1><a href={plaquette_2026}>Télécharger la plaquette de la saison</a></h1>
+      <p><a href={plaquette_2026}>Plaquette de la saison pour adhérent ponctuel</a></p>
+      <p><a href={plaquette_ami}>Plaquette de la saison pour les amis de l'association</a></p>
     </div>
 
     <div className="stats-banner">
